@@ -1,0 +1,9 @@
+COPY circuits FROM 'D:\Spring2024 - UB\DMQL\project\F1-DMQL\F1-Database-Management\SQLfiles\share\final\circuits.csv' DELIMITER ',' CSV HEADER;
+COPY raceinfo FROM 'D:\Spring2024 - UB\DMQL\project\F1-DMQL\F1-Database-Management\SQLfiles\share\final\raceinfo.csv' DELIMITER ',' CSV HEADER;
+COPY drivers FROM 'D:\Spring2024 - UB\DMQL\project\F1-DMQL\F1-Database-Management\SQLfiles\share\final\drivers.csv' DELIMITER ',' CSV HEADER;
+COPY constructors FROM 'D:\Spring2024 - UB\DMQL\project\F1-DMQL\F1-Database-Management\SQLfiles\share\final\constructors.csv' DELIMITER ',' CSV HEADER;
+COPY results FROM 'D:\Spring2024 - UB\DMQL\project\F1-DMQL\F1-Database-Management\SQLfiles\share\final\results.csv' DELIMITER ',' CSV HEADER;
+COPY driver_standings FROM 'D:\Spring2024 - UB\DMQL\project\F1-DMQL\F1-Database-Management\SQLfiles\share\final\driver_standings.csv' DELIMITER ',' CSV HEADER;
+COPY driver_teams FROM 'D:\Spring2024 - UB\DMQL\project\F1-DMQL\F1-Database-Management\SQLfiles\share\final\driver_teams.csv' DELIMITER ',' CSV HEADER;
+COPY pitstops FROM 'D:\Spring2024 - UB\DMQL\project\F1-DMQL\F1-Database-Management\SQLfiles\share\final\pitstops.csv' DELIMITER ',' CSV HEADER;
+COPY laptimes FROM 'D:\Spring2024 - UB\DMQL\project\F1-DMQL\F1-Database-Management\SQLfiles\share\final\laptime.csv' DELIMITER ',' CSV HEADER;
